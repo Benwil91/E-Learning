@@ -1,0 +1,392 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section {
+	display: block;
+	}
+
+html, body, h1, h2, h3, ul, li, a, p,
+article, aside, footer, header, main, nav, section {
+	padding: 0;
+	margin: 0;
+	}
+								/* @Text category */	
+h3 {
+	text-align:center;
+	}
+/* Header top */
+
+#header {
+	text-align:center;
+	}
+	/* End Header top */
+	
+/* Menu text */	
+	li a {
+	color: #FFFFFF;
+	}
+
+li {
+	display: inline;
+	margin-right: 15px;
+	font-size: 15px;
+	font-weight: bold;
+	}
+/* End menu text */	
+	
+								/* End @Text category */	
+		
+	
+								/* @Pictures category */	
+	
+/* All pictures in #header */
+.header p {
+
+	margin-top: 20px;
+	padding-right: 0px;
+	padding-left: 10px;
+	}
+	
+.header img {
+	float: left;
+	height: 180px;
+	width: 130px;
+	margin-left: 5%;
+	margin-right:2%;
+	box-shadow: 7px 7px 3px #888888;
+	}
+
+.header-course img {
+	float:	none;
+	height: 600px;
+	width: 800px;
+	margin-left: 5%;
+	margin-right:2%;
+	box-shadow: 7px 7px 3px #888888;
+	}
+
+
+
+/* Background banner top */	
+.banner {	
+
+	float:none;
+	background-image:url(bilder/e-learn.png);
+	background-color:#ADADAD;
+	height: 130px;
+	background-repeat:no-repeat;
+	padding: 0px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+
+}	 
+/* Logo top */
+#logo {
+	margin-left: 35%;
+	
+}
+.article2 img {
+	margin-right: 30%;
+	padding-right: 0%;
+	height:50%;
+	width: 50%;
+}
+/* End of background banner top */
+
+								/* End @Pictures category */	
+
+
+								/* @Pagecontent category */	
+
+/* Main container of homepage */
+body {
+	background-size: 100%;
+	background-repeat:no-repeat;
+	background-color:#FFFFFF;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	}
+/* End main container of homepage */
+
+/* Container of sections, articles, sidebar, twitter */
+main {
+	border: 1px solid #AFAFAF;
+	width: 100%;
+	background-color: #FFFFFF;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}	
+/* End container of sections, articles, sidebar, twitter */
+
+/* Middle part that contains all articles */
+section {
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #B6B6B6;
+	margin-top: 10px;
+	display: inline;
+	}
+/* End middle part that contains all articles */
+#content {
+	float: left;
+	text-align:center;
+	width: 63%; 
+	margin-right: 0%;
+	margin-top: 0%;
+
+}
+/* Menu top */
+#nav {
+	background-color: #AFAFAF;
+	padding: 10px;
+	margin-top: 1px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	} 
+/* End menu top */
+
+/* Container of description in top section*/
+.list1 {
+	margin-left: 15%;
+	margin-right: 15%;
+	padding: 15px 10px;
+	background-color: #AFAFAF;
+	color: #FFFFFF;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	box-shadow: 10px 10px 5px #DDDDDD;	
+}
+/* End of container of description on top in section*/
+
+/* Top 10 */
+#sidebar {
+	float:left;
+	width: 150px;
+	margin-top: 100px;
+	margin-left: 10px;
+	padding-top: 20px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-bottom: 10px;
+	background-color: #AFAFAF;
+	color: #FFFFFF;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	box-shadow: 10px 10px 5px #DDDDDD;
+}
+/* End Top 10 */
+
+/* Film/serie presentasjon */
+article {
+	float: left ;
+	text-align:left;
+	width: 100%; 
+	margin-right: 15%;
+	margin-top: 0%;
+	padding-right:20%;	
+}
+/* End Film/serie presentasjon */
+
+/* articlebox for text "Om oss"  */
+.article2 {
+	float:none;
+	height: 95%;
+	width: 110%;
+	margin-right:50%;
+	
+	
+}
+
+.textbox {
+	border: 1px solid #DDDDDD;
+	background-color:#F0F0F0;
+	margin-left: 25%;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.textbox2 {
+	border: 1px solid #DDDDDD;
+	margin-left: 25%;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.textbox3 {
+	border: 1px solid #DDDDDD;
+	background-color:#F0F0F0;
+	margin-left: 25%;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+
+								/* End @Pagecontent category */		
+	
+
+								/* @Footer category */	
+footer {
+	background-color: #AFAFAF;
+	text-align:center;
+	margin-top: 0%;
+	color:#FCFCFC;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+								/* End @Footer category */	
+
+
+
+								/* @Twitterbox categori  */
+
+.twitter {
+	margin-top: 5%;
+	margin-left: 83%;
+	width: 100px;
+}
+
+#top, #bottom, #left, #right {
+	background: #80C7FF;
+	position:static;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 10px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+		/* End CSS Twitter box */
+			
+								/* End @Twitterbox categori  */
+ul.trailerakt {
+	background-image: url(bilder/knapp2.png);
+	background-position:center;
+	padding: 10px;
+	margin-top: 1px;
+	text-align:center;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+
+	}
+ul.trailerakt li {	
+	text-color: #FFFFFF;
+	text-decoration:none;
+	padding: 2px 2px 2px 0;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+
+	}
+
+/* @Mobile category */
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+	
+#main {
+	width: 400px;
+		}
+
+#header {
+	background-image: url(bilder/logo.png);
+	height: 300px;
+	position: relative;
+		}
+
+#header h3 {
+	font-size: 140%;
+		}
+
+#content {
+	float: left;
+	width: 100%;
+		}
+
+#nav li {
+	font-size: 25px;
+		}
+		
+#nav {
+	float:none;
+	width: auto;
+	height:50%;
+		}
+		
+#sidebar {
+	display: none;
+		}
+		
+.header p {
+	margin-top: 20px;
+	padding-right: 0px;
+	padding-left: 10px;
+	}
+	
+.textbox {
+	float:left;
+	width: 99%;
+	text-align:center;	
+	margin-top:5%;
+	margin-right:25%;
+	margin-left:1%;	
+		}
+		
+.textbox2 {
+	float:left;
+	width: 98%;
+	text-align:center;	
+	margin-top:5%;
+	margin-right:25%;
+	margin-left:1%;	
+		}
+		
+.textbox3 {
+	float:left;
+	width: 60%;
+	text-align:center;
+	padding-top:5px;	
+	padding-left: 7px;
+	padding-right: 20px;	
+		}
+
+
+.twitter {
+	margin-left:25%;
+	width:50%;
+}
+
+.header img {
+	width: 50%;
+	height:60%;
+	margin-left: 25%;
+	
+	box-shadow: 7px 7px 3px #888888;
+	}
+	
+body {
+	background-image:url(bilder/bg-gimp.jpg);
+	background-size: 150%;
+	margin-left:10%;
+	margin-right:10%;
+	}
+ 
+
+
+
+
+
+
+	}
+
